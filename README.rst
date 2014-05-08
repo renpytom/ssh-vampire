@@ -7,7 +7,7 @@ environment variables to stdout.
 
 This might be useful if you ssh into a desktop or workstation that is
 running ssh-agent, and then wish to connect to another computer, using
-the keys stored in ssh-agent. In that case, you'll want to run:
+the keys stored in ssh-agent. In that case, you'll want to run::
 
     workstation$ eval $(ssh_vampire.py)
     workstation$ ssh other_computer
